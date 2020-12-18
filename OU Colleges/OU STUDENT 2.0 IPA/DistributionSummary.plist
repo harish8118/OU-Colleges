@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OU STUDENT.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>0C1124DDF4F3DF23D4DBEF77E7C531BB124378C5</string>
+				<key>dateExpires</key>
+				<string>31/08/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>0C1124DDF4F3DF23D4DBEF77E7C531BB124378C5</string>
+						<key>dateExpires</key>
+						<string>31/08/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHWFSL6XBF</string>
+						<key>name</key>
+						<string>CYBERHEIGHTS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>0C1124DDF4F3DF23D4DBEF77E7C531BB124378C5</string>
+						<key>dateExpires</key>
+						<string>31/08/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>IQAudioRecorderController.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHWFSL6XBF</string>
+						<key>name</key>
+						<string>CYBERHEIGHTS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>0C1124DDF4F3DF23D4DBEF77E7C531BB124378C5</string>
+						<key>dateExpires</key>
+						<string>31/08/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>RSLoadingView.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHWFSL6XBF</string>
+						<key>name</key>
+						<string>CYBERHEIGHTS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>0C1124DDF4F3DF23D4DBEF77E7C531BB124378C5</string>
+						<key>dateExpires</key>
+						<string>31/08/21</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SCSiriWaveformView.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHWFSL6XBF</string>
+						<key>name</key>
+						<string>CYBERHEIGHTS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>KHWFSL6XBF.cyberheights.com.OU-STUDENT</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>KHWFSL6XBF</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>KHWFSL6XBF.cyberheights.com.OU-STUDENT</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>OU STUDENT.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a341d120-3868-4b0c-8736-6afc66253a3b</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: cyberheights.com.OU-STUDENT</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>KHWFSL6XBF</string>
+				<key>name</key>
+				<string>CYBERHEIGHTS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

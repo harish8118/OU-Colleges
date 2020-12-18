@@ -1,0 +1,6 @@
+framework module Pods_OU_CollegesTests {
+  umbrella header "Pods-OU CollegesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
