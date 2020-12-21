@@ -28,6 +28,7 @@
 		CC4CB44A251C996200F95AEB /* setPinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CB449251C996200F95AEB /* setPinVC.swift */; };
 		CC4CB44C251CA29F00F95AEB /* forgtPinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CB44B251CA29F00F95AEB /* forgtPinVC.swift */; };
 		CC50CB622530333A00966E07 /* postAlrtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50CB612530333A00966E07 /* postAlrtVC.swift */; };
+		CC8C8FBF258E1B0700975E70 /* OUC.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8C8FBE258E1B0700975E70 /* OUC.png */; };
 		CCACB680252ED87F007934C5 /* stdntDtlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCACB67F252ED87F007934C5 /* stdntDtlVC.swift */; };
 		CCB7D2A82525B0AC00430426 /* rootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7D2A72525B0AC00430426 /* rootVC.swift */; };
 		CCB7D2AA2525DF6400430426 /* notify2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7D2A92525DF6400430426 /* notify2VC.swift */; };
@@ -98,6 +99,7 @@
 		CC4CB449251C996200F95AEB /* setPinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPinVC.swift; sourceTree = "<group>"; };
 		CC4CB44B251CA29F00F95AEB /* forgtPinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgtPinVC.swift; sourceTree = "<group>"; };
 		CC50CB612530333A00966E07 /* postAlrtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postAlrtVC.swift; sourceTree = "<group>"; };
+		CC8C8FBE258E1B0700975E70 /* OUC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OUC.png; sourceTree = "<group>"; };
 		CCACB67F252ED87F007934C5 /* stdntDtlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdntDtlVC.swift; sourceTree = "<group>"; };
 		CCB7D2A72525B0AC00430426 /* rootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootVC.swift; sourceTree = "<group>"; };
 		CCB7D2A92525DF6400430426 /* notify2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notify2VC.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		CC331F9A251DC84A003354B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8C8FBE258E1B0700975E70 /* OUC.png */,
 				CC331F9E251DC889003354B5 /* TPKeyboardAvoidingScrollView.h */,
 				CC331F9D251DC889003354B5 /* TPKeyboardAvoidingScrollView.m */,
 				CC331F9F251DC889003354B5 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4CB420251C566D00F95AEB /* LaunchScreen.storyboard in Resources */,
+				CC8C8FBF258E1B0700975E70 /* OUC.png in Resources */,
 				CC4CB41D251C566D00F95AEB /* Assets.xcassets in Resources */,
 				CC4CB418251C566C00F95AEB /* Main.storyboard in Resources */,
 			);

@@ -127,11 +127,21 @@ class dashVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSour
             rtrn.dashImg.image = UIImage.init(named: unvAdmnImgArr[indexPath.row])
             rtrn.dashLbl.text =  unvAdmnArr[indexPath.row]
             
+            rtrn.cellBackVW.layer.cornerRadius = rtrn.cellBackVW.layer.frame.width/2
+            rtrn.cellBackVW.layer.borderWidth = 3.0
+            rtrn.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+            rtrn.cellBackVW.layer.masksToBounds = true;
+            
             cl = rtrn
             
         }else if rllId == "2" {
             rtrn.dashImg.image = UIImage.init(named: unvUsrImgArr[indexPath.row])
             rtrn.dashLbl.text =  unvUsrArr [indexPath.row]
+            
+            rtrn.cellBackVW.layer.cornerRadius = rtrn.cellBackVW.layer.frame.width/2
+            rtrn.cellBackVW.layer.borderWidth = 3.0
+            rtrn.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+            rtrn.cellBackVW.layer.masksToBounds = true;
             
             cl = rtrn
             
@@ -142,15 +152,20 @@ class dashVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSour
                 let vc : dashCell = collectionView.dequeueReusableCell(withReuseIdentifier: "dash2", for: indexPath) as! dashCell
                 
                 vc.cuntLbl.text = "\(unRead ?? "")"
-                vc.cellBackVW.layer.cornerRadius = vc.cellBackVW.frame.size.height/2
-                vc.cellBackVW.layer.masksToBounds = true
                 
-                vc.layer.cornerRadius = 15.0
-                vc.layer.masksToBounds = true;
+                vc.cellBackVW.layer.cornerRadius = vc.cellBackVW.layer.frame.width/2
+                vc.cellBackVW.layer.borderWidth = 3.0
+                vc.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+                vc.cellBackVW.layer.masksToBounds = true;
                 
                 return cl
                 
             }
+            
+            rtrn.cellBackVW.layer.cornerRadius = rtrn.cellBackVW.layer.frame.width/2
+            rtrn.cellBackVW.layer.borderWidth = 3.0
+            rtrn.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+            rtrn.cellBackVW.layer.masksToBounds = true;
             
             cl = rtrn
             
@@ -161,25 +176,32 @@ class dashVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSour
                 let vc : dashCell = collectionView.dequeueReusableCell(withReuseIdentifier: "dash2", for: indexPath) as! dashCell
                 
                 vc.cuntLbl.text = "\(unRead ?? "")"
-                vc.cellBackVW.layer.cornerRadius = vc.cellBackVW.frame.size.height/2
-                vc.cellBackVW.layer.masksToBounds = true
-                
-                vc.layer.cornerRadius = 15.0
-                vc.layer.masksToBounds = true;
+
+                vc.cellBackVW.layer.cornerRadius = vc.layer.frame.width/2
+                vc.cellBackVW.layer.borderWidth = 3.0
+                vc.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+                vc.cellBackVW.layer.masksToBounds = true;
                 
                 return vc
                 
             }
+            
+            rtrn.cellBackVW.layer.cornerRadius = rtrn.cellBackVW.layer.frame.width/2
+            rtrn.cellBackVW.layer.borderWidth = 3.0
+            rtrn.cellBackVW.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+            rtrn.cellBackVW.layer.masksToBounds = true;
+            
+            cl = rtrn
+            
         }
+
         
-        rtrn.cellBackVW.layer.cornerRadius = rtrn.cellBackVW.frame.size.height/2
-        rtrn.cellBackVW.layer.masksToBounds = true
         
-        rtrn.layer.cornerRadius = 20.0
-        rtrn.layer.borderColor = UIColor.orange.cgColor
-        rtrn.layer.masksToBounds = true;
+//        cl.layer.cornerRadius = cl.layer.frame.width/2
+//        cl.layer.borderWidth = 3.0
+//        cl.layer.borderColor = UIColor.init(red: 0/255, green: 19/255, blue: 70/255, alpha: 1.0).cgColor
+//        cl.layer.masksToBounds = true;
         
-        cl = rtrn
         return cl
         
     }
